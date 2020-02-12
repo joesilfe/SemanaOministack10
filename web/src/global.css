@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+ /* Os elementos html, body e #root não ocupam 100% da altura por padrão. */
+html, body, #root{
+    height: 100%;
+    -webkit-font-smoothing: antialiased; /* Deixa a fonte legível. https://devhints.io/ */
+    -moz-osx-font-smoothing: grayscale; /* Deixa a fonte legível. https://devhints.io/ */
+}
+
+body{
+    background-color: #e5e6f0;
+}
+
+body, input, button {
+    font-family: Roboto, sans-serif;
+}
+
+li.dev-item, aside{
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+    border-radius: 2px;
+}

@@ -1,0 +1,20 @@
+-Instale o expo de forma global. 
+
+Terminal: yarn global add expo-cli
+
+--
+
+-Para criar um projeto mobile digite no terminal
+
+Terminal: expo init mobile
+
+--
+
+Execute o projeto
+
+Terminal: yarn start
+
+--
+
+Para fazer navegção no react native, utilize react navigator
+Link.: https://reactnavigation.org/docs/en/getting-started.html

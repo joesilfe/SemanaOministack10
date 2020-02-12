@@ -1,0 +1,26 @@
+main {
+    flex:1;
+    margin-left: 20px;
+}
+
+main ul{
+    display: grid;
+    /* repeat(2 : Quero 2 elementos em uma coluna, 1fr: que possuem esse tamanho); */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    list-style: none;
+}
+
+@media (max-width: 650px) {
+    main ul {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 1000px){
+
+    main{
+      margin-left: 0;
+      margin-top: 30px;
+    }
+  }
